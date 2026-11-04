@@ -9,7 +9,7 @@ from java_runtime import resolve_jdk
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from windows_paths import jvm_path
+from windows_paths import jvm_path, prepare_agent
 
 
 def run(jdk: Path):
@@ -28,8 +28,9 @@ def run(jdk: Path):
                 (directory / "translations").mkdir(parents=True, exist_ok=True)
                 for filename in ("cubemx-cn-agent.jar", "cubemx-cn-bootstrap.jar", "translations/zh_CN.tsv"):
                     shutil.copy2(bundle / filename, directory / filename)
-            subprocess.run([str(jdk / "bin/java.exe"), f"-javaagent:{jvm_path(directory / 'cubemx-cn-agent.jar')}",
-                            f"-Dcubemx.cn.dictionary={jvm_path(directory / 'translations/zh_CN.tsv')}",
+            runtime, dictionary = prepare_agent(directory, directory / 'translations/zh_CN.tsv')
+            subprocess.run([str(jdk / "bin/java.exe"), f"-javaagent:{jvm_path(runtime / 'cubemx-cn-agent.jar')}",
+                            f"-Dcubemx.cn.dictionary={jvm_path(dictionary)}",
                             "-cp", str(classes), "RenderSmoke", str(ROOT / "reports" / name)], check=True)
 
 

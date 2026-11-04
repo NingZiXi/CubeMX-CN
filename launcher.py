@@ -14,7 +14,7 @@ import sys
 import threading
 import time
 import zipfile
-from windows_paths import jvm_path
+from windows_paths import jvm_path, prepare_agent
 
 APP_ROOT = Path(sys.executable).resolve().parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
 BUNDLE = APP_ROOT if (APP_ROOT / "cubemx-cn-agent.jar").exists() else APP_ROOT / "dist/CubeMX-CN"
@@ -147,7 +147,8 @@ def launch(folder: Path, chinese: bool = True, capture: Path | None = None,
         for name in ("cubemx-cn-agent.jar", "cubemx-cn-bootstrap.jar"):
             if not (BUNDLE / name).is_file():
                 raise ValueError(f"汉化文件缺失：{BUNDLE / name}。请完整解压发布包。")
-        command.extend([f"-javaagent:{jvm_path(BUNDLE / 'cubemx-cn-agent.jar')}", f"-Dcubemx.cn.dictionary={jvm_path(dictionary)}"])
+        runtime, runtime_dictionary = prepare_agent(BUNDLE, dictionary)
+        command.extend([f"-javaagent:{jvm_path(runtime / 'cubemx-cn-agent.jar')}", f"-Dcubemx.cn.dictionary={jvm_path(runtime_dictionary)}"])
         if capture:
             command.append(f"-Dcubemx.cn.capture={capture.resolve()}")
     command.extend(["-jar", info["executable"]])
