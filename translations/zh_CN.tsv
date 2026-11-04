@@ -1,0 +1,1125 @@
+# STM32CubeMX 中文绘制词典；UTF-8；英文原文<TAB>中文。
+# 仅用于界面显示，不修改业务字符串、工程数据或生成模板。
+About	关于
+About STM32	关于 STM32
+About STM32CubeMX	关于 STM32CubeMX
+All	全部
+Apply	应用
+Board	开发板
+Cancel	取消
+CHECK FOR UPDATES	检查更新
+CHECK LPBAM DESIGN	检查 LPBAM 设计
+Check for STM32CubeMX and embedded software packages updates	检查 STM32CubeMX 和嵌入式软件包更新
+Clear list	清空列表
+Click to view more details	点击查看详情
+Click to visit ST home page	点击访问 ST 官网
+Close	关闭
+Comments	注释
+Compare Projects	比较工程
+Compatible MCUs	兼容 MCU
+Configuration	配置
+Confirm the Project Settings please	请确认工程设置
+Dark Theme	深色主题
+Data Refresh	刷新数据
+Default Theme	默认主题
+Display size	显示大小
+Display the Help	显示帮助
+Do you want to create a new project :	是否创建新工程：
+Docs & Resources	文档与资源
+Don't care	不限
+Dont care	不限
+Error	错误
+Example	示例
+External Tools	外部工具
+File Manager	文件管理
+Forum	论坛
+GENERATE CODE	生成代码
+Go to ST Community Forum	访问 ST 社区论坛
+Go to ST home page	访问 ST 官网
+Go to ST Wiki	访问 ST Wiki
+Go to ST YouTube channel	访问 ST YouTube 频道
+Help	帮助
+Hide the output window	隐藏输出窗口
+Home	首页
+INSTALL / REMOVE	安装 / 移除
+Install or remove embedded software packages	安装或移除嵌入式软件包
+LPBAM Consistency check result	LPBAM 一致性检查结果
+LPBAM Scenario & Configuration	LPBAM 场景与配置
+Larger (high-res. display)	较大（高分辨率显示器）
+Last	最后
+MCUs Selection	MCU 选择
+Manual Refresh Data	手动刷新数据
+Medium	中等
+Memory Protection Unit for Cortex-M7	Cortex-M7 内存保护单元
+Never Mind	忽略
+Never mind	忽略
+New Project	新建工程
+Output	输出
+Outputs	输出
+Package	封装
+Packages :	封装：
+Pin to pin compatibility	引脚兼容性
+Project Manager	工程管理
+REFRESH	刷新
+Refresh Data	刷新数据
+Refresh data and documents for MCUs, Boards and Examples	刷新 MCU、开发板和示例的数据及文档
+Repository	仓库
+Required Peripherals	所需外设
+Restart Project	重新开始工程
+Save	保存
+Series	系列
+Series :	系列：
+Show the output window	显示输出窗口
+Signals to remap	需要重映射的信号
+Smaller (low-res. display)	较小（低分辨率显示器）
+Start My project from Example	从示例创建工程
+Start My project from MCU	从 MCU 创建工程
+Start My project from ST Board	从 ST 开发板创建工程
+Technical Docs	技术文档
+Technical Documentation	技术文档
+Theme(Beta)	主题（测试版）
+Tools	工具
+Try out STM32 Sidekick, your AI-powered technical assistant	试用 STM32 Sidekick 智能技术助手
+Tutorial Videos	视频教程
+Unseen updates	未查看的更新
+Untitled	未命名
+Updater	更新管理
+User Preferences	用户首选项
+WARNING	警告
+Warning	警告
+Window	窗口
+YES	是
+You must restart CubeMX to apply these changes.	需要重启 CubeMX 才能应用这些更改。
+Zip file	ZIP 文件
+ACCESS TO MCU SELECTOR	打开 MCU 选择器
+ACCESS TO BOARD SELECTOR	打开开发板选择器
+ACCESS TO CROSS SELECTOR	打开交叉选型器
+ACCESS TO EXAMPLE SELECTOR	打开示例选择器
+ ACCESS TO COMPARE PROJECTS	打开工程比较
+Add Pack Software components to the Project	向工程添加软件包组件
+Add Toolchain	添加工具链
+Add necessary library files as reference in the toolchain project configuration file	在工具链工程配置中引用所需库文件
+Add new IDE	添加 IDE
+Advanced	高级
+Advanced Settings	高级设置
+Advanced Settings - Generated Function Calls	高级设置 - 生成的函数调用
+After Code Generation	代码生成后
+Allowed	允许
+Application	应用程序
+Application (Default Boot Path)	应用程序（默认启动路径）
+Application Structure	应用程序结构
+Available wiki and/or readme	可用 Wiki 和说明文档
+BACK	上一步
+Backup previously generated files when re-generating	重新生成时备份之前生成的文件
+Balanced Size/Speed	平衡大小与速度
+Basic	基本
+Before Code Generation	代码生成前
+Before re-generating, all sources & header files are saved with '.bak' extension	重新生成前，将所有源文件和头文件备份为 .bak 文件
+Binary	二进制
+Binary input file	二进制输入文件
+Board Component	开发板组件
+Board Extension	扩展板
+Board Name	开发板名称
+Board Part	开发板部件
+Board Support	板级支持
+Boot	启动
+Boot Path	启动路径
+Boot Path Image	启动映像
+Boot Path Information	启动路径信息
+Boot Path Selection	启动路径选择
+Both CPUs booting at once	两个 CPU 同时启动
+Browse	浏览
+Browse 	浏览
+Browse  	浏览
+Browse a new path to your Boot Path project.	选择启动工程的新路径。
+Browse a new path to your Python Machine Path.	选择 Python 运行环境的新路径。
+Browse a new path to your STM32CubeProgrammer Path.	选择 STM32CubeProgrammer 的新路径。
+CANCEL	取消
+CM4 booting, CM7 gated	启动 CM4，关闭 CM7 时钟
+CM7 booting, CM4 gated	启动 CM7，关闭 CM4 时钟
+Caution	注意
+Checking Peripheral status	正在检查外设状态
+Checking application status	正在检查应用程序状态
+Choose Code generation Folder	选择代码生成文件夹
+Choose DeviceTree Root Folder	选择设备树根文件夹
+Choose Firmware Folder	选择固件文件夹
+Choose Project Folder	选择工程文件夹
+Choose Report name	选择报告名称
+Choose Script File	选择脚本文件
+Choose Template Folder	选择模板文件夹
+Clock	时钟
+Code Generation	代码生成
+Code Generation Settings	代码生成设置
+Code Generator	代码生成器
+Code generation...	正在生成代码...
+Code generator	代码生成器
+Common	通用
+Compiler	编译器
+Compiler Optimizations	编译器优化
+Component	组件
+Components	组件
+Config Files Location	配置文件位置
+Configuration Report	配置报告
+Configure	配置
+Configure Debug Authentication via Trusted Package Creator	通过 Trusted Package Creator 配置调试认证
+Context	上下文
+Continue	继续
+Copy all used libraries into the project folder	将所有使用的库复制到工程文件夹
+Copy needed files from TF-M project	从 TF-M 工程复制所需文件
+Copy only the necessary library files	仅复制所需的库文件
+Copying libraries files...	正在复制库文件...
+Core	内核
+Core(s)	内核
+Core(s) information	内核信息
+Data	数据
+Data Exchange	数据交换
+Data download area offset	数据下载区域偏移量
+Data download slot size	数据下载槽大小
+Date	日期
+Debug Authentication	调试认证
+Debug Authentication Configuration	调试认证配置
+Default	默认
+Default Compiler/Linker	默认编译器/链接器
+Define	宏定义
+Define your boot Path	定义启动路径
+Delete previously generated files when not re-generated	删除本次不再生成的旧文件
+Description	说明
+Destination Folder	目标文件夹
+Device	器件
+DeviceTree Root Location	设备树根目录
+Do Not Generate Function Call	不生成函数调用
+Do not generate the main()	不生成 main() 函数
+Do you want to use default Boot Path settings?	是否使用默认启动路径设置？
+Docs  & Resources	文档与资源
+Documentation	文档
+Down step	下移
+Download	下载
+Driver	驱动
+Driver Selector	驱动选择
+Drivers	驱动
+Dual Core Boot Mode	双核启动模式
+During generation, tag-delimited User Code is kept	生成时保留用户代码标记之间的代码
+Edit Config Files	编辑配置文件
+Enable Full Assert	启用完整断言
+Enable Linker File(s) Update	启用链接文件更新
+Enable multi-threaded support	启用多线程支持
+End address	结束地址
+Error in Project Generation	工程生成错误
+Extension Board	扩展板
+External	外部
+FINISH	完成
+Families	系列
+Family	系列
+File	文件
+File System	文件系统
+File is not readable	无法读取文件
+File not found	未找到文件
+Firmware Package Name and Version	固件包名称与版本
+Firmware Relative Path	固件相对路径
+Firmware area address (in internal RAM)	固件区域地址（内部 RAM）
+Firmware area size	固件区域大小
+Firmware binary input file	固件二进制输入文件
+Firmware download area address (in external flash)	固件下载区域地址（外部 Flash）
+Firmware download area offset	固件下载区域偏移量
+Firmware execution area offset	固件执行区域偏移量
+Firmware image generation	固件映像生成
+Firmware installation area address (in external flash)	固件安装区域地址（外部 Flash）
+Firmware non secure image generation	非安全固件映像生成
+Firmware secure image generation	安全固件映像生成
+First	第一项
+Function Name	函数名称
+Generate Code	生成代码
+Generate PDF Report	生成 PDF 报告
+Generate Project Report	生成工程报告
+Generate Project Reports	生成工程报告
+Generate Project report files (pdf and txt)	生成工程报告文件（PDF 和 TXT）
+Generate Report	生成报告
+Generate Text Report	生成文本报告
+Generate Under Root	在根目录下生成
+Generate code	生成代码
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral	为每个外设生成独立的 .c/.h 初始化文件
+Generate source code based on user settings	根据用户设置生成源代码
+Generated files	生成的文件
+Generated with:	生成工具：
+Generating EWARM project...	正在生成 EWARM 工程...
+Generating Keil project...	正在生成 Keil 工程...
+Generating Project...	正在生成工程...
+Generating SW4STM32 project...	正在生成 SW4STM32 工程...
+Generating TrueSTUDIO project...	正在生成 TrueSTUDIO 工程...
+Generating user source code...	正在生成用户源代码...
+Generic	通用
+Graphical Boot Representation	启动流程图
+Graphics	图形
+Groups	分组
+HAL Settings	HAL 设置
+Hex format	十六进制格式
+IDE Mode	IDE 模式
+IP Name	IP 名称
+If checked, linker file will be generated from scratch (User updates will be erased).	勾选后重新生成链接文件（将清除用户修改）。
+If checked, linker files will be updated.	勾选后更新链接文件。
+Image	映像
+Import Project Settings	导入工程设置
+Includes	包含路径
+Info	信息
+Internal	内部
+Invalid path	无效路径
+Invalid path.	无效路径。
+Keep User Code when re-generating	重新生成时保留用户代码
+Key location	密钥位置
+LPBAM Settings	LPBAM 设置
+Legacy	旧版
+Link	链接
+Linker 	链接器
+Linker Settings	链接器设置
+Loading old project settings...	正在加载旧版工程设置...
+Local Firmware	本地固件
+Location	位置
+Location:	位置：
+MCU Line	MCU 产品线
+MCU Package	MCU 封装
+MCU Pin number	MCU 引脚数
+MCU Series	MCU 系列
+MCU name	MCU 名称
+Manifest Content	清单内容
+Manifest Version	清单版本
+Mapping	映射
+Mcu Reference	MCU 型号
+Mcu and Firmware Package	MCU 与固件包
+Memory Region	内存区域
+Middlewares	中间件
+Migrate	迁移
+Migrate to the latest supported Firmware version	迁移到最新支持的固件版本
+Minimum Heap Size	最小堆大小
+Minimum Stack Size	最小栈大小
+Multi-folder	多文件夹
+Multi-project	多工程
+NEXT	下一步
+Name	名称
+Network	网络
+New STM32Cube firmware version available	有新的 STM32Cube 固件版本
+No Firmware Available	没有可用固件
+No error	无错误
+No information	无信息
+Non Secure	非安全
+None	无
+None: custom mode	无：自定义模式
+Not IDE Mode	非 IDE 模式
+Not available	不可用
+Not to be generated	不生成
+Number of images managed	管理的映像数量
+Only Non Secure	仅非安全
+Only Secure	仅安全
+Only the library files relevant to the user configuration are copied to the project folder	仅将用户配置所需的库文件复制到工程文件夹
+Open Folder	打开文件夹
+Open Project	打开工程
+OpenSTLinux Settings	OpenSTLinux 设置
+Optimize Size	优化大小
+Optimize Speed	优化速度
+Other	其他
+Other Toolchains (GPDSC)	其他工具链（GPDSC）
+Others	其他
+Overwrite this file by this new Project ?	是否用新工程覆盖此文件？
+PDF Report	PDF 报告
+Path	路径
+Peripheral Instance Name	外设实例名称
+Pinout & Configuration	引脚与配置
+Please save your project. 	请保存工程。
+Project	工程
+Project Folder	工程文件夹
+Project Location	工程位置
+Project Manager Settings	工程管理设置
+Project Name	工程名称
+Project Settings	工程设置
+Project Structure	工程结构
+Project not saved	工程尚未保存
+Projects	工程
+Provisioning	安全配置
+Python Machine Location	Python 运行环境位置
+Python Machine Path	Python 运行环境路径
+Queue	队列
+Rank	顺序
+Reference	参考
+Reference Location	参考位置
+Reference Manual	参考手册
+Reference Manuals	参考手册
+Register CallBack	注册回调函数
+Reinitialize Linker File(s)	重新初始化链接文件
+Release CPU2	释放 CPU2
+Reset to alphabetical order	按字母顺序重置
+STM32Cube MCU packages and embedded software packs	STM32Cube MCU 固件包与嵌入式软件包
+STM32CubeMX project Files (.ioc)	STM32CubeMX 工程文件（.ioc）
+STM32CubeProgrammer Location	STM32CubeProgrammer 位置
+STM32CubeProgrammer Path	STM32CubeProgrammer 路径
+Safety	功能安全
+Save Project As	工程另存为
+Save configuration automatically when generating code	生成代码时自动保存配置
+Saving project settings...	正在保存工程设置...
+Saving user data (Backup previous files)...	正在保存用户数据（备份旧文件）...
+Script Execution Started	脚本开始执行
+Script Execution is Completed	脚本执行完成
+Search needed files for the project...	正在查找工程所需文件...
+Secure	安全
+Secure SRAM End address	安全 SRAM 结束地址
+Security	安全性
+Select	选择
+Select a template to generate customized code	选择用于生成自定义代码的模板
+Select additional software components	选择附加软件组件
+Select your templates	选择模板
+Selected Templates	已选模板
+Set Application structure (Advanced/Basic).	设置应用程序结构（高级/基本）。
+Set Connection	设置连接
+Set all free pins as analog (to optimize the power consumption)	将所有空闲引脚设为模拟模式（优化功耗）
+Settings ...	设置...
+Settings for software Project	软件工程设置
+Settings...	设置...
+Sign Binary(ies)	签名二进制文件
+Signature	签名
+Single-project	单工程
+Software Project	软件工程
+Source Folder	源文件夹
+Sources	源文件
+Start address	起始地址
+Start process	启动进程
+Structure	结构
+Target	目标
+Template Settings	模板设置
+The Makefile project name cannot contain white spaces.	Makefile 工程名称不能包含空格。
+The Project Location cannot be empty. Please indicate Project Location Folder.	工程位置不能为空，请指定工程文件夹。
+The Project Name cannot be empty. Please indicate Project Name.	工程名称不能为空，请输入工程名称。
+The Project cannot be created in this folder.	无法在此文件夹中创建工程。
+The Project file cannot be written (Read Only)	工程文件为只读，无法写入。
+The setting can later be changed in Project Manager.	之后可以在工程管理中修改此设置。
+Thread-safe Locking Strategy	线程安全锁定策略
+Thread-safe Settings	线程安全设置
+Title	标题
+Toolchain / IDE	工具链 / IDE
+Toolchain Folder Location	工具链文件夹位置
+Toolchain Settings	工具链设置
+Toolchains Settings	工具链设置
+Two Projects (.ioc) cannot be created in the same folder.	不能在同一文件夹中创建两个 .ioc 工程。
+Type	类型
+Undefined	未定义
+Undefined Project	未定义工程
+Up step	上移
+Use Default Firmware Location	使用默认固件位置
+Use Default Path	使用默认路径
+Use Default Reference Location	使用默认参考位置
+Use Software Pack Library in the project	在工程中使用软件包库
+Use default location	使用默认位置
+Use installed toolchain / IDE	使用已安装的工具链 / IDE
+Use latest available version	使用最新可用版本
+User Actions	用户操作
+Utilities	实用工具
+Utility	工具
+Value	值
+Version	版本
+Visibility	可见性
+Visibility (Static)	可见性（Static）
+Warning: Code Generation	警告：代码生成
+Warning: Project Structure	警告：工程结构
+Warning: Save Project As	警告：工程另存为
+Which is your target board?	目标开发板是什么？
+Wireless	无线
+With Trust Zone	启用 TrustZone
+Workspace	工作区
+XML location	XML 位置
+Yes	是
+Add	添加
+Add Channel	添加通道
+Add List	添加列表
+Add Request	添加请求
+Add pack software component to the project	向工程添加软件包组件
+Address	地址
+Address Mask	地址掩码
+Alternate Function	复用功能
+Alternate Function(s)	复用功能
+Analog	模拟
+Auto	自动
+Back to Standard Mode	返回标准模式
+Background	背景
+Best fit	适应窗口
+Block Address Offset	块地址偏移量
+Block Cipher	分组加密
+Block Count	块数
+Block Data Length:	块数据长度：
+Bottom	底部
+Bottom view	底视图
+Buffer Transfer Length	缓冲区传输长度
+Buffer transfer	缓冲区传输
+Burst Size	突发长度
+Byte	字节
+Call HAL handler	调用 HAL 处理函数
+Can't add DMA requests	无法添加 DMA 请求
+Can't save incomplete configuration	无法保存不完整的配置
+Categories	分类
+Channel	通道
+Channel Privileged	通道特权属性
+Channel Secured	通道安全属性
+Clear Pinouts	清除引脚配置
+Clear Signals that have no associated mode	清除没有关联模式的信号
+Clear Single Mapped Signals	清除唯一映射信号
+Clock Configuration	时钟配置
+Clock Tree Configuration	时钟树配置
+Clock configuration	时钟配置
+Clock configuration reset, Please Wait...	正在重置时钟配置，请稍候...
+Code generation	代码生成
+Collapse All	全部折叠
+Collapse all categproes	折叠所有分类
+Condition	条件
+Conflict	冲突
+Constraint	约束
+DMA Chained Requests	DMA 链式请求
+DMA Chained requests	DMA 链式请求
+DMA Request	DMA 请求
+DMA Request Generator Settings	DMA 请求发生器设置
+DMA Request Security/Privilege	DMA 请求安全/特权设置
+DMA Request Settings	DMA 请求设置
+DMA Request Synchronization Settings	DMA 请求同步设置
+DMA request	DMA 请求
+Data Alignement	数据对齐
+Data Alignment	数据对齐
+Data Mask	数据掩码
+Data Width	数据位宽
+Default Configuration	默认配置
+Delete	删除
+Destination	目标
+Destination Address	目标地址
+Destination Block Address Offset	目标块地址偏移量
+Destination Burst Size	目标突发长度
+Destination Data Width	目标数据位宽
+Destination Security	目标安全属性
+Diagnostic	诊断
+Direction	方向
+Disable All Modes	禁用所有模式
+Disable all Peripherals and Middlewares modes	禁用所有外设和中间件模式
+Disabled	禁用
+Display and customize the colors of pinout view	显示并自定义引脚视图颜色
+Do not show this message again.	不再显示此消息。
+Double Word	双字
+Dst Memory	目标存储器
+Element	元素
+Enable	启用
+Enable event	启用事件
+Enable synchronization	启用同步
+Enabled	启用
+Enabled interrupt table	已启用的中断表
+Encrypt	加密
+Encrypt the memory region	加密此内存区域
+Endianness	字节序
+Enter User Label	输入用户标签
+Expand All	全部展开
+Expand Peripherals	展开外设
+Expand all categories	展开所有分类
+Export	导出
+Export pinout with Alt. Functions	导出引脚及复用功能
+Export pinout without Alt. Functions	导出引脚（不含复用功能）
+Export to Excel	导出到 Excel
+Expression	表达式
+FIFO Threshold:	FIFO 阈值：
+Fast Mode	快速模式
+Feature ID	功能 ID
+Features	功能
+Filtering	筛选
+Find Peripheral	查找外设
+Find next occurrence in table	查找表中的下一项
+Find previous occurrence in table	查找表中的上一项
+Finished	已完成
+Fixed	固定
+Flip Horizontal	水平翻转
+Flip Vertical	垂直翻转
+Force DMA channels Interrupts	强制启用 DMA 通道中断
+Free	空闲
+Frequency searched for is out of range	目标频率超出范围
+Full access	完全访问
+Full transfer	完整传输
+GPIO Mode	GPIO 模式
+GPIO Panel	GPIO 面板
+GPIO Type	GPIO 类型
+GPIO mode	GPIO 模式
+Generate CSV pinout text file	生成 CSV 引脚文件
+Generate Enable in Init	在初始化中生成使能代码
+Generate IRQ handler	生成中断处理函数
+Global	全局
+Global lock : OFF	全局锁定：关
+Global lock : ON	全局锁定：开
+Go to Extended Mode	切换到扩展模式
+Group By Peripherals	按外设分组
+Half Word	半字
+IRQ handler is provided by the active RTOS	中断处理函数由当前 RTOS 提供
+Ignore Pinning Status	忽略信号固定状态
+Ignore Power Pins	忽略电源引脚
+Ignore System Pins	忽略系统引脚
+Incomplete result.	结果不完整。
+Incorrect	不正确
+Increment Address	地址递增
+Increment Destination Address	目标地址递增
+Increment Mode	递增模式
+Increment Source Address	源地址递增
+Information	信息
+Input	输入
+Input frequency	输入频率
+Installed	已安装
+Instance	实例
+Interrupt	中断
+Interrupt initialization code is located in the HAL peripheral MspInit callback	中断初始化代码位于 HAL 外设 MspInit 回调中
+Interrupt name	中断名称
+Invalid data	无效数据
+Invalid frequency	无效频率
+Invalid value	无效值
+Keep Current Signals Placement	保持当前信号位置
+Label	标签
+Layout reset	布局重置
+Linear list	线性列表
+Linked Lists	链表
+List	列表
+List MCUs which are pinout compatible with the current project	列出与当前工程引脚兼容的 MCU
+List Pinout Compatible MCUs	列出引脚兼容的 MCU
+List Type	列表类型
+List of Compatible MCUs:	兼容 MCU 列表：
+Lock	锁定
+Lock Secure Resources	锁定安全资源
+Locked	已锁定
+Low	低
+MCUs Filters	MCU 筛选
+MCUs List	MCU 列表
+MDMA Request	MDMA 请求
+MDMA Request Settings	MDMA 请求设置
+Manage Software Packs	管理软件包
+Manage interrupts	管理中断
+Managed by RTOS	由 RTOS 管理
+Memory	存储器
+Memory Burst Size	存储器突发长度
+Memory Data Width	存储器数据位宽
+Memory regions configuration	内存区域配置
+Memory sub-regions configuration	内存子区域配置
+Middleware	中间件
+Middleware and Software Packs	中间件与软件包
+Mode	模式
+Mode and Configuration	模式与配置
+Mode:	模式：
+Modified	已修改
+Move down	下移
+Move up	上移
+Multiplexed	复用
+No Configuration	无配置
+No HAL handler to be called	没有需要调用的 HAL 处理函数
+No Selection	未选择
+No access	禁止访问
+No available DMA requests for configured peripherals	已配置外设没有可用 DMA 请求
+No available DMA requests for this peripheral	此外设没有可用 DMA 请求
+No available MDMA requests	没有可用 MDMA 请求
+No solution found for the configuration chosen	未找到满足所选配置的方案
+No solution found using your Frequency	未找到满足目标频率的方案
+Not Configured	未配置
+Not installed	未安装
+Not supported yet.	尚不支持。
+Number of GPIOs	GPIO 数量
+OK, Import	确定，导入
+Ongoing	进行中
+Open folder	打开文件夹
+Owner	所有者
+Peripheral	外设
+Peripheral Burst Size	外设突发长度
+Peripheral Data Width	外设数据位宽
+Peripheral ID	外设 ID
+Peripherals	外设
+Peripherals are sorted alphabetically	外设按字母排序
+Peripherals are sorted by their categories	外设按分类排序
+Pin Locking	引脚锁定
+Pin Name	引脚名称
+Pin Reservation	引脚预留
+Pin Reserved	已预留引脚
+Pin Security assignment	引脚安全属性分配
+Pin Stacking	引脚堆叠
+Pin Type	引脚类型
+Pin locking	锁定引脚
+Pin reservation	预留引脚
+Pin unlocking	解锁引脚
+Pinout	引脚配置
+Pinout Compatible	引脚兼容
+Pinout Configuration	引脚配置
+Pinout View Colors	引脚视图颜色
+Pinout view	引脚视图
+Pins Configuration	引脚配置
+Pins/Signals Options...	引脚/信号选项...
+Please enter a search string	请输入搜索内容
+Polarity	极性
+Power	功耗
+Preemption Priority	抢占优先级
+Premption Priority	抢占优先级
+Prioritize Secure exceptions	优先处理安全异常
+Priority	优先级
+Priority Group	优先级分组
+Privilege	特权属性
+Pull-down	下拉
+Read	读取
+Redo	重做
+Redo Mode and pinout	重做模式和引脚配置
+Region Name	区域名称
+Region name	区域名称
+Region size	区域大小
+Remember my decision for next projects.	后续工程使用此选择。
+Request	请求
+Request generation Signal	请求生成信号
+Request number	请求数量
+Reserved	保留
+Reset	重置
+Reset Clock Configuration	重置时钟配置
+Reset Layout	重置布局
+Reset Zoom	重置缩放
+Reset part or all used GPIOs at the same time	同时重置部分或全部已使用的 GPIO
+Reset the pinout configuration	重置引脚配置
+Reset used GPIOs	重置已使用的 GPIO
+Resize component	调整器件显示大小
+Resolve Clock Issues	解决时钟问题
+Restart	重新开始
+Restore Pinout	恢复引脚配置
+Restore default IP configuration	恢复 IP 默认配置
+Restore default current IP Configuration	恢复当前 IP 默认配置
+Rotate clockwise	顺时针旋转
+Rotate counter clockwise	逆时针旋转
+Save As CSV File	另存为 CSV 文件
+Search	搜索
+Search (Ctrl+F)	搜索（Ctrl+F）
+Search Options	搜索选项
+Search Signals	搜索信号
+Search text in interrupt list	在中断列表中搜索
+Search...	搜索...
+Searching Solution, Please Wait...	正在寻找方案，请稍候...
+Secure the memory region	将内存区域设为安全
+Secured	安全
+Select Components	选择组件
+Select a target MCU to export	选择要导出的目标 MCU
+Select an MCU from the list	从列表中选择 MCU
+Select for init sequence ordering	选择以调整初始化顺序
+Select/deselect all	全选/取消全选
+Semaphores	信号量
+Set all free pins as Analog	将所有空闲引脚设为模拟模式
+Set part or all unused GPIOs at the same time	同时设置部分或全部未使用的 GPIO
+Set unused GPIOs	设置未使用的 GPIO
+Show	显示
+Show All	显示全部
+Show User Label instead of Signal	显示用户标签而非信号
+Show contexts	显示上下文
+Show only Modified Pins	仅显示已修改的引脚
+Show power domain	显示电源域
+Signal	信号
+Signal Name	信号名称
+Signal Pinning	固定信号
+Signal Unpinning	取消信号固定
+Signal on Pin	引脚上的信号
+Signal polarity	信号极性
+Signal(s) Pinning	固定信号
+Signal(s) Unpinning	取消信号固定
+Signals	信号
+Single	单次
+Single Mapped Signals	唯一映射信号
+Software Packs	软件包
+Software request	软件请求
+Sort by Premption Priority	按抢占优先级排序
+Sort by Premption Priority and Sub Priority	按抢占优先级和子优先级排序
+Sort by interrupts names	按中断名称排序
+Source	源
+Source Address	源地址
+Source Block Address Offset	源块地址偏移量
+Source Burst Size	源突发长度
+Source Data Width	源数据位宽
+Source Security	源安全属性
+Source configured in BYPASS Mode	时钟源配置为旁路模式
+Source configured in Crystal Mode	时钟源配置为晶体模式
+Source enabled	时钟源已启用
+Src Memory	源存储器
+Standard Mode	标准模式
+Start Address	起始地址
+Start Address Offset	起始地址偏移量
+Stop	停止
+Stopped	已停止
+Stream	数据流
+Sub Priority	子优先级
+Sub-Zone Name	子区域名称
+Sub-Zone Size	子区域大小
+Swap pins	交换引脚
+Synchronization signal	同步信号
+System Mode	系统模式
+System view	系统视图
+The label should start with a character or an underscore	标签应以字母或下划线开头
+The value should be Hexadecimal with format 0x...	数值应为 0x... 格式的十六进制数
+The value should be between 0 and 255	数值应介于 0 和 255 之间
+There are no parameters to be configured.	没有需要配置的参数。
+These pins can't be configured together. They have no common parameters.	这些引脚没有共同参数，无法一起配置。
+This file already exists, overwrite it?	文件已存在，是否覆盖？
+Threshold	阈值
+Top	顶部
+Top view	顶视图
+Trigger Mode	触发模式
+Undo	撤销
+Undo Mode and pinout	撤销模式和引脚配置
+Unlock	解锁
+Use Fifo	使用 FIFO
+Use MDMA	使用 MDMA
+User Label	用户标签
+Uses FreeRTOS functions	使用 FreeRTOS 函数
+Word	字
+Write	写入
+Zooming In	放大
+Zooming Out	缩小
+Zooming in	放大
+Zooming out	缩小
+A network connection is required to proceed	需要网络连接才能继续
+Activate	激活
+Activate the Tooltip	启用工具提示
+Active	活动
+Additional Hardware	附加硬件
+Additional Interface	附加接口
+Additional board	附加开发板
+Additional component	附加组件
+All of selected	满足所有选中条件
+Available	可用
+Based on Driver	基于驱动
+Block Diagram	框图
+Board Filters	开发板筛选
+Board Peripherals	开发板外设
+Board Selector	开发板选择器
+Board Support Package Library	板级支持包库
+Board Type	开发板类型
+Board used for the selected example	所选示例使用的开发板
+Board:	开发板：
+Boards	开发板
+Browse...	浏览...
+Build	构建
+Button	按钮
+Buy	购买
+Bytes	字节
+CAD Model	CAD 模型
+CAD Resources	CAD 资源
+Camera	摄像头
+Cancel selection	取消选择
+Cancelled	已取消
+Category	类别
+Check for Update	检查更新
+Check/Uncheck All	全选/取消全选
+Click to remove column	点击移除此列
+Click to remove this value from filter selection	点击从筛选中移除此值
+Collapse	折叠
+Collapse all filters sections	折叠所有筛选条件
+Collapse all sections	折叠所有分区
+Coming soon	即将推出
+Commercial Part No	订货型号
+Commercial Part Number	订货型号
+Comparator	比较器
+Compare Table	比较表
+Configurable	可配置
+Configure your connection settings	配置连接设置
+Confirm	确认
+Connectivity	连接功能
+Connectivity Expansion Board	通信扩展板
+Connectivity and Data Management	连接与数据管理
+Connector	连接器
+Coprocessor	协处理器
+Coprocessor Frequency	协处理器频率
+Copy	复制
+Copy URL	复制网址
+Copy all libraries into the project folder	将所有库复制到工程文件夹
+Copy link to clipboard	复制链接到剪贴板
+Copy to clipboard	复制到剪贴板
+Cross Selector	交叉选型器
+Cryptography	加密功能
+CubeIDE integrated	集成于 CubeIDE
+CubeMX integrated	集成于 CubeMX
+Data brief	产品简介
+Datasheet	数据手册
+Datasheet document	数据手册文档
+Debug	调试
+Debug Connector	调试接口
+Deselect all columns	取消选择所有列
+Disable	禁用
+Discovery Kit	探索套件
+Display	显示
+Display Controller	显示控制器
+Display only exact matching results	仅显示精确匹配结果
+Display similar items	显示相似项
+Do you want to download the new version of this document?	是否下载此文档的新版本？
+Do you want to set your connection parameters now?	是否现在设置连接参数？
+Download all resources	下载全部资源
+Download all resources for selected product	下载所选产品的全部资源
+Download new version	下载新版本
+Dual Bank Flash	双 Bank Flash
+Embedded Sensor	板载传感器
+Enter the name of your search:	输入搜索名称：
+Ethernet Port	以太网接口
+Evaluation Board	评估板
+Evaluation Tools	评估工具
+Example Features	示例功能
+Example Filters	示例筛选
+Example Selector	示例选择器
+Examples	示例
+Expand	展开
+Expand all filters sections	展开所有筛选条件
+Expand all sections	展开所有分区
+External EEPROM	外部 EEPROM
+External Flash	外部 Flash
+External Memory Interface	外部存储器接口
+External RAM	外部 RAM
+Favorite	收藏
+Favorite Tag	收藏标签
+Favorites	收藏夹
+Filter	筛选
+Filters	筛选条件
+Finalizing...	正在完成...
+Frequency	频率
+Functional Block Diagram	功能框图
+Generate	生成
+Getting started	快速入门
+Graphic Accelerator	图形加速器
+Hide similar items	隐藏相似项
+Hide unused	隐藏未使用项
+Inactive	不活动
+Included in Kit	套件包含
+Product	产品
+Product evaluation tools	产品评估工具
+Project Type	工程类型
+Proxy	代理
+Proxy Error	代理错误
+Purchase information	购买信息
+RAM Total	RAM 总量
+Range	范围
+Refresh Data and Technical Docs	刷新数据与技术文档
+Remember my decision	记住我的选择
+Remind me Later	稍后提醒
+Remove Current Column	移除当前列
+Remove all MCU extended filters	移除所有 MCU 扩展筛选条件
+Report	报告
+Report Completed	报告完成
+Reset all	全部重置
+Reset all filters	重置所有筛选条件
+Reset comparison	重置比较
+Reset selection	重置选择
+Reset to Default Columns	恢复默认列
+ST server is not responding, please try again later.	ST 服务器无响应，请稍后重试。
+ST server is not responding.	ST 服务器无响应。
+Save Search	保存搜索
+Save comparison	保存比较
+Save the current comparison	保存当前比较
+Search in this filter	在此筛选项中搜索
+Select all columns	选择所有列
+Select installation directory	选择安装目录
+Selected	已选择
+Sensor	传感器
+Settings	设置
+Show Example	显示示例
+Show all items	显示所有项
+Show only favorites	仅显示收藏
+Show unused	显示未使用项
+Software Examples	软件示例
+Some of selected	满足任一选中条件
+Speaker	扬声器
+Standalone	独立运行
+Standard	标准
+Start Project	开始工程
+Start Project from Example	从示例创建工程
+Start Project in External IDE	在外部 IDE 中打开工程
+Start Project in STM32CubeMX	在 STM32CubeMX 中打开工程
+Start Project...	开始工程...
+Status:	状态：
+Supplier	供应商
+System Core	系统核心
+Technical documentation	技术文档
+Text	文本
+This example is ready	示例已就绪
+Timer	定时器
+Timer Function	定时器功能
+Timer Total	定时器总数
+Tool	工具
+Toolchain	工具链
+Touch Sensing	触摸感应
+Unavailable	不可用
+Under Development	开发中
+Unknown	未知
+User Button	用户按键
+User Manuals	用户手册
+Vendor	厂商
+Verifying ...	正在验证...
+Voltage Max	最高电压
+Voltage Min	最低电压
+Wireless Interface	无线接口
+Open	打开
+Exit	退出
+Edit	编辑
+Options	选项
+New	新建
+Save Project	保存工程
+Recent Projects	最近的工程
+OK	确定
+No	否
+Next	下一步
+Finish	完成
+Remove	移除
+Paste	粘贴
+Select All	全选
+Parameter Settings	参数设置
+User Constants	用户常量
+Timers	定时器
+Computing	计算
+Multimedia	多媒体
+# 以下词条来自 HTML 文本节点；完整 HTML 字面量与运行记录见 catalog-provenance.json。
+Existing Projects	现有工程
+Recent Opened Projects	最近打开的工程
+Other Projects	其他工程
+Data collection information notice	数据收集告知
+Other Services	其他服务
+I need to :	我需要：
+Manage software installations	管理软件安装
+Open Existing Projects	打开现有工程
+Auto Refresh ON	自动刷新已开启
+Available Version	可用版本
+Current Version:	当前版本：
+Installed Version	已安装版本
+New Version:	新版本：
+All conditions are solved.	所有条件均已满足。
+An entry must be selected from the list to access the corresponding solutions.	请从列表中选择一项，以查看对应方案。
+As external: function code to be provided by the user.	外部函数：由用户提供函数代码。
+As weak: generates an empty function in main.c/freertos.c as weak	弱函数：在 main.c/freertos.c 中生成空的 weak 函数
+Can be modified but not removed!	可以修改，但不能移除！
+Cannot show dependencies for a bundle	无法显示组件集合的依赖关系
+Cannot show dependencies for a pack	无法显示软件包的依赖关系
+Cannot show dependencies for an API	无法显示 API 的依赖关系
+Click Refresh	点击刷新
+Click to have see details and warnings in the right panel	点击在右侧面板查看详情和警告
+Comparing	正在比较
+Computer-Aided Design is no longer available inside STM32CubeMX.	STM32CubeMX 内已不再提供 CAD 功能。
+Config name	配置名称
+Config parameters	配置参数
+Conflict with	冲突对象
+Conflict with:	冲突对象：
+Connection steps:	连接步骤：
+Created by the FreeRTOs scheduler when configUSE_TIMERS is Enabled	启用 configUSE_TIMERS 时由 FreeRTOS 调度器创建
+Custom thread-safe implementation.User defined solution for handling thread-safety.	自定义线程安全实现：由用户提供线程安全处理方案。
+DDR Frequency	DDR 频率
+DDR Size	DDR 容量
+DDR Tests	DDR 测试
+DDR base address	DDR 基地址
+Default : this will map on the suitable strategy depending on RTOS selection.	默认：根据所选 RTOS 使用合适的策略。
+Default task, mainly in charge of middlewares init (when some are selected).	默认任务，主要负责初始化已选中的中间件。
+Default: generates an empty function in main.c/freertos.c) as global	默认：在 main.c/freertos.c 中生成空的全局函数
+Delegated	已委派
+Delegation	委派
+Deny lock usage from interrupts. This implementation assumes single thread of execution.	禁止在中断中使用锁。此实现假定只有单个执行线程。
+Disabled:	禁用：
+Disabling all interrupts creates interrupt latency which might not be desired for this application!	禁用所有中断会增加中断延迟，可能不适合此应用！
+Do you want to overwrite it?	是否覆盖？
+Double-click to edit and modify.	双击进行编辑修改。
+Exit the software component selector and go to STM32CubeMX Pinout&Configuration tab	退出软件组件选择器并转到 STM32CubeMX 的引脚与配置页面
+Exposed APIs	公开的 API
+From the left panel, select the corresponding middleware, then enable it through the mode panel.	从左侧面板选择相应中间件，再通过模式面板启用。
+From the left panel, select the corresponding peripheral, then enable it through the mode panel.	从左侧面板选择相应外设，再通过模式面板启用。
+General Conditions	通用条件
+Groups communication peripherals and timers	包含通信外设和定时器
+Help: Click on Peripheral inside core panel to change its allocation	提示：点击内核面板中的外设可更改其分配
+High processing and connectivity Domain	高性能处理与连接域
+If only one entry is available, it is automatically selected.	如果只有一个可用选项，将自动选择。
+Important notice regarding test parameters:	关于测试参数的重要说明：
+In that case, you are encouraged to upgrade.	此时建议升级。
+Includes the core and its cache, Flash memory and high bandwidth peripherals	包含内核及其缓存、Flash 和高带宽外设
+Interrupts with high priority are not disabled. This implies that the lock is not thread-safe from high priority interrupts!	高优先级中断不会被禁用，因此在此类中断中使用锁不能保证线程安全！
+It is defined by the order of the queue in the UI (Execution order is defined from left to right).	由界面中的队列顺序决定（从左至右执行）。
+LPBAM reserved Queue. It Can't be edited nor modified	LPBAM 保留队列，无法编辑或修改
+Last load:	上次加载：
+Left-click to toggle sort	左键点击切换排序
+Limitations	限制
+Limited proximity range	接近检测范围有限
+Loading execution abnormally long, you must check and re-initialize the connection.	加载耗时异常，请检查并重新初始化连接。
+Loading steps:	加载步骤：
+Main Application status:	主应用状态：
+Manage Urls for user defined embedded software packs	管理用户自定义嵌入式软件包网址
+Management	管理
+Max length defined by configMAX_TASK_NAME_LEN	最大长度由 configMAX_TASK_NAME_LEN 定义
+Memory allocation option: dynamic or static	内存分配方式：动态或静态
+Mode for OPENAMP_M4 and OPENAMP_M7 must be different.	OPENAMP_M4 与 OPENAMP_M7 的模式必须不同。
+Multiple selection is Allowed.	允许多选。
+NOTE:	注意：
+Name:	名称：
+New Step	新建步骤
+No context has been selected.	尚未选择上下文。
+No software component found	未找到软件组件
+No solution found	未找到方案
+Note:	注意：
+Offset	偏移量
+Optional parameter: can be NULL, otherwise should be something casted to (void *) type.	可选参数：可以为 NULL，否则应转换为 void * 类型。
+Pack Status	软件包状态
+Please copy and open this URL manually:	请复制并手动打开此网址：
+Please create or activate a LPBAM application first	请先创建或激活 LPBAM 应用
+Please install STM32CubeMX.	请安装 STM32CubeMX。
+Please note that loading some recent MCUs may fail if your version of STM32CubeMX is too old.	STM32CubeMX 版本过旧时，某些较新的 MCU 可能无法加载。
+Please read and accept the following agreement carefully to finish the installation:	请仔细阅读并接受以下协议以完成安装：
+Please select a Negative Input source	请选择负输入源
+Please select a Trigger Source	请选择触发源
+Please select a mode of switching between default and secondary inputs	请选择默认输入和辅助输入之间的切换模式
+Please try to refresh it from the package manager after closing this project	请关闭此工程后尝试在软件包管理器中刷新
+Press [CANCEL]	点击 [取消]
+Press [OK]	点击 [确定]
+Reduced	缩减
+Region	区域
+Reminder:	提醒：
+Right-click to show column options	右键点击显示列选项
+ST-Link driver	ST-Link 驱动
+STM32 Tools	STM32 工具
+STM32Cube MCU Packages and embedded software packs releases	STM32Cube MCU 固件包与嵌入式软件包版本
+STM32Cube Updater	STM32Cube 更新管理
+STM32CubeMX has not found any STM32CubeProgrammer version.	STM32CubeMX 未找到 STM32CubeProgrammer。
+STM32CubeMX is not installed	尚未安装 STM32CubeMX
+STMicroelectronics Application Tools	意法半导体应用工具
+SYSRAM Loading	SYSRAM 加载
+Select Pins from table to configure them.	从表格中选择要配置的引脚。
+Selection	选择
+Software Packs > Manage Software Packs	软件包 > 管理软件包
+Start	开始
+Status	状态
+Step Dialog Help	步骤对话框帮助
+SubRegion	子区域
+Surface Capacitance support only	仅支持表面电容
+The Code is successfully generated under :	代码已成功生成到：
+The ExternalMemoryLoader project doesn't support Software Pack.	ExternalMemoryLoader 工程不支持软件包。
+The database file containing the examples is missing.	示例数据库文件缺失。
+The idle task (created by the FreeRTOS scheduler)	空闲任务（由 FreeRTOS 调度器创建）
+The middleware can be switched between TrustZone Contexts	可在 TrustZone 上下文之间切换此中间件
+The peripheral can be switched between TrustZone Contexts	可在 TrustZone 上下文之间切换此外设
+The signal list panel is visible in a  popup by [LEFT] clicking on a pin.	左键点击引脚可弹出信号列表面板。
+The signal list panel is visible in a popup by [LEFT] clicking on a pin.	左键点击引脚可弹出信号列表面板。
+The software packs database has not been built: the IOC cannot be correctly loaded.	尚未建立软件包数据库，无法正确加载 IOC。
+The start of the queue execution can impact the functional aspect of LPBAM application.	队列开始执行的时机会影响 LPBAM 应用功能。
+The stubs in st_lock_custom.h needs to be implemented to gain thread-safety.	需要实现 st_lock_custom.h 中的桩函数才能保证线程安全。
+The suffix is applied to all application region sections in the linker file	该后缀应用于链接文件中所有应用区域段
+The timer service task (created by the FreeRTOS scheduler)	定时器服务任务（由 FreeRTOS 调度器创建）
+The value of CID SELECTION can not be modified	无法修改 CID SELECTION 的值
+They are read-only in the Software Component Selector window.	这些项目在软件组件选择器窗口中为只读。
+They may be used to solve other packs dependencies.	这些项目可用于满足其他软件包的依赖关系。
+This button allows to shift from left to right the selected queue.	此按钮将选中队列向右移动。
+This button allows to shift from right to left the selected queue.	此按钮将选中队列向左移动。
+This component cannot be selected:	无法选择此组件：
+This component has no dependency.	此组件没有依赖项。
+This component has variants: please select one.	此组件有多个变体，请选择其中一个。
+This is mainly used to facilitate debugging.	主要用于方便调试。
+This pack is not supported.	不支持此软件包。
+This parameter could be modified only from the master ADC1.	此参数只能通过主 ADC1 修改。
+This parameter could be modified only from the master ADC3.	此参数只能通过主 ADC3 修改。
+Thread-safety dependent functions will enter an infinity loop if used in interrupt context.	在中断上下文中调用依赖线程安全的函数会进入无限循环。
+Title:	标题：
+To activate a virtual pack component:	激活虚拟软件包组件：
+To add packs, please enter url to either one of the following:	添加软件包时，请输入以下任意一种网址：
+To be able to proceed, please install this pack first.	请先安装此软件包后再继续。
+Total amount of RAM used by defined events .	已定义事件占用的 RAM 总量。
+Total amount of RAM used by defined mutexes and semaphores .	已定义互斥锁和信号量占用的 RAM 总量。
+Total amount of RAM used by defined queues (including the timer queue, when applicable)	已定义队列占用的 RAM 总量（适用时包含定时器队列）
+Total amount of RAM used by defined tasks.	已定义任务占用的 RAM 总量。
+Total amount of RAM used by defined timers.	已定义定时器占用的 RAM 总量。
+Total amount of the heap used by known objects (user objects, internal freertos objects)	已知对象使用的堆总量（用户对象和 FreeRTOS 内部对象）
+Unable to open the default browser automatically.	无法自动打开默认浏览器。
+User action required	需要用户操作
+User message queue.	用户消息队列。
+WARNINGS:	警告：
+Warning:	警告：
+Warning: This peripheral has no parameters to be configured	警告：此外设没有需要配置的参数
+Warning: This peripheral has no parameters to be configured.	警告：此外设没有需要配置的参数。
+Warning: This solution present some limitations	警告：此方案存在一些限制
+You have changed your project Structure.	工程结构已更改。
+You have changed your project option.	工程选项已更改。

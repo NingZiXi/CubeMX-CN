@@ -1,0 +1,21 @@
+# Generated artifacts and local environments
+/build/
+/dist/
+/.venv/
+__pycache__/
+*.py[cod]
+*.spec
+.pytest_cache/
+
+# Local diagnostics can contain project paths and proprietary extracted strings.
+/reports/
+/logs/
+*.log
+hs_err_pid*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

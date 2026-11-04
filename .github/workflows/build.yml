@@ -1,0 +1,44 @@
+name: Windows build and tests
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: '1'
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Install packaging dependencies
+        run: python -m pip install -r requirements-build.txt
+      - name: Build Java agent
+        run: python tools/build.py
+      - name: Verify launcher and rendering
+        run: python tools/verify.py
+      - name: Package Windows launcher
+        run: python tools/package.py
+      - name: Upload portable package
+        uses: actions/upload-artifact@v4
+        with:
+          name: CubeMX-CN-windows-x64
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error
