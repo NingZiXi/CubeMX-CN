@@ -61,7 +61,9 @@ class LauncherTests(unittest.TestCase):
         args, kwargs = popen.call_args
         self.assertIsInstance(args[0], list)
         self.assertIn(f"-javaagent:{self.bundle / 'cubemx-cn-agent.jar'}", args[0])
-        self.assertIn(f"-Dcubemx.cn.dictionary={self.dictionary}", args[0])
+        # Windows runners can expose TEMP through an 8.3 alias (RUNNER~1).
+        # The launcher deliberately resolves the dictionary to its canonical path.
+        self.assertIn(f"-Dcubemx.cn.dictionary={self.dictionary.resolve()}", args[0])
         self.assertNotIn("shell", kwargs)
         self.assertEqual(kwargs["cwd"], self.install.resolve())
         self.assertEqual(json.loads(log.with_suffix(".json").read_text(encoding="utf-8"))["pid"], 123)
