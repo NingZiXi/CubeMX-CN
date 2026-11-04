@@ -4,6 +4,7 @@ import argparse
 import shutil
 import subprocess
 import sys
+import tempfile
 from java_runtime import resolve_jdk
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,14 +20,17 @@ def run(jdk: Path):
     subprocess.run([str(jdk / "bin/javac.exe"), "-encoding", "UTF-8", "-cp",
                     str(bundle / "cubemx-cn-bootstrap.jar"), "-d", str(classes),
                     str(ROOT / "tests/RenderSmoke.java")], check=True)
-    for directory, name in ((bundle, "render-smoke.png"), (ROOT / "build/汉化 测试路径", "render-unicode-path.png")):
-        if directory != bundle:
-            (directory / "translations").mkdir(parents=True, exist_ok=True)
-            for filename in ("cubemx-cn-agent.jar", "cubemx-cn-bootstrap.jar", "translations/zh_CN.tsv"):
-                shutil.copy2(bundle / filename, directory / filename)
-        subprocess.run([str(jdk / "bin/java.exe"), f"-javaagent:{jvm_path(directory / 'cubemx-cn-agent.jar')}",
-                        f"-Dcubemx.cn.dictionary={jvm_path(directory / 'translations/zh_CN.tsv')}",
-                        "-cp", str(classes), "RenderSmoke", str(ROOT / "reports" / name)], check=True)
+    # Use the Windows temp volume, which normally provides 8.3 aliases, instead
+    # of assuming that the source checkout's volume supports native Unicode paths.
+    with tempfile.TemporaryDirectory(prefix="CubeMX 汉化 测试 ") as temporary:
+        for directory, name in ((bundle, "render-smoke.png"), (Path(temporary), "render-unicode-path.png")):
+            if directory != bundle:
+                (directory / "translations").mkdir(parents=True, exist_ok=True)
+                for filename in ("cubemx-cn-agent.jar", "cubemx-cn-bootstrap.jar", "translations/zh_CN.tsv"):
+                    shutil.copy2(bundle / filename, directory / filename)
+            subprocess.run([str(jdk / "bin/java.exe"), f"-javaagent:{jvm_path(directory / 'cubemx-cn-agent.jar')}",
+                            f"-Dcubemx.cn.dictionary={jvm_path(directory / 'translations/zh_CN.tsv')}",
+                            "-cp", str(classes), "RenderSmoke", str(ROOT / "reports" / name)], check=True)
 
 
 if __name__ == "__main__":
