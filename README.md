@@ -4,13 +4,13 @@
 
 传统版 **STM32CubeMX** 的独立中文启动器。通过进程内显示层汉化，让常用菜单和页面显示中文，保留原安装文件与程序内部参数。
 
-**[下载 Windows 便携版](https://github.com/NingZiXi/CubeMX-CN/releases/latest)** · [更新记录](CHANGELOG.md) · [参与改进](CONTRIBUTING.md)
+**[下载网站](https://ningzixi.github.io/CubeMX-CN/)** · **[Gitee 下载](https://gitee.com/nzxhg/CubeMX-CN/releases/tag/v0.1.0)** · [GitHub 备用下载](https://github.com/NingZiXi/CubeMX-CN/releases/latest) · [更新记录](CHANGELOG.md) · [参与改进](CONTRIBUTING.md)
 
 ![实际 CubeMX 首页汉化效果，工程列表已隐藏](docs/images/home.png)
 
 ## 使用方法
 
-1. 从 Releases 下载 `CubeMX-CN-v版本号-windows-x64.zip`，**完整解压**。
+1. 从 [Gitee 发行版](https://gitee.com/nzxhg/CubeMX-CN/releases/tag/v0.1.0) 或 [GitHub 发行版](https://github.com/NingZiXi/CubeMX-CN/releases/latest) 下载 `CubeMX-CN-v版本号-windows-x64.zip`，**完整解压**。
 2. 双击 `CubeMX-CN.exe`，检查自动找到的 CubeMX 安装目录，也可以点击“浏览”选择。
 3. 保存并关闭已经打开的 CubeMX，点击 **启动中文版**。
 4. 切换英文时，关闭 CubeMX，再点击 **启动英文版**，或者使用原来的 CubeMX 快捷方式。
@@ -18,6 +18,12 @@
 以后想用中文，都从汉化启动器进入。可以为 EXE 创建快捷方式，但不要只移动 EXE：两个 JAR 文件和 `translations` 文件夹需要保留在旁边。
 
 发布包不需要另装 Python，使用 CubeMX 自带的 Java。工具不覆盖 EXE、插件、数据库、`.ioc` 或原版启动配置，不需要打补丁或恢复备份。删除汉化文件夹即可停止使用；工具自身的设置和日志位于 `%LOCALAPPDATA%/CubeMX-CN`。CubeMX 启动时仍会正常更新它自己的用户设置和软件包索引。
+
+请下载名称包含 `windows-x64` 的便携 ZIP，不要将自动生成的源码 ZIP/TAR 当作安装包。Gitee 如要求登录，可登录后下载，或选择 GitHub 备用入口。两个平台的 v0.1.0 便携包一致，SHA-256 为：
+
+```text
+ee6134b320b3a738cd2ded95b527425429ac7b406778ac977c85423a3a9d3493
+```
 
 ## 兼容性与边界
 
